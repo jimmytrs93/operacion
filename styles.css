@@ -1,0 +1,31 @@
+.pintarImg>img {
+    width: 400px;
+    margin: 2px;
+}
+
+.imgJuego {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+.puntuacion {
+    height: 150px;
+}
+
+.puntuacion>img {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
+
+.pintarImg,
+.juego {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.juego,
+.contenido {
+    display: none;
+}

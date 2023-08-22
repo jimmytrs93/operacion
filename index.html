@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aplicación de juego operando</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+
+	<div class="pintarImg">
+		<img src="./piezas/completo.png" alt="fichas completo">
+	</div>
+
+	<div id="cantJug">
+		<span>Ingrese los numeros de jugadores</span>
+		<input type="number" name="numero" id="numJugadores">
+		<button onclick="numJug()">Aceptar</button>
+	</div>
+
+	<div id="jugadores" class="jugadores"></div>
+	<div id="puntuacion" class="puntuacion"></div>
+
+	<div class="juego" id="juego">
+		<button id="inicio" class="inicio" onclick="inicio()">Iniciar</button>
+
+		<div id="contenido" class="contenido">
+			<img id="imgJuego" class="imgJuego" src="" alt="">
+			<span id="jugador"></span>
+			<br>
+			<button onclick="logrado()">Logrado</button>
+			<button onclick="fallido()">Fallido</button>
+		</div>
+
+		<br>
+		<br>
+		<button onclick="reiniciar()">Reiniciar</button>
+	</div>
+</body>
+
+</html>
